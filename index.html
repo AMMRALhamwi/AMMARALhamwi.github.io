@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My busnisess description</title>
+    <!-- main template css file -->
+    <!-- <link rel="stylesheet" href="./css/kasper.css"> -->
+    <!-- its best practice to keep the main css file in the last so it over
+    write on the others and in the same time no file can over write on it -->
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/normalize.css">
+     <!-- main template css file -->
+    <link rel="stylesheet" href="./css/busnisess.css">
+    <!-- Google fonts full axis -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Header -->
+     <!-- <a href=""></a>  a is a tag for the link-->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/logo (1).png" alt="Logo">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <!-- the name of the icon is fas.fa-bars and the rest is a class tittle -->
+                <ul>
+                    <li><a class="active" href="#Home">الرئيسية</a></li>
+                    <li><a href="#Services">الخدمات</a></li>
+                    <li><a href="#Portofolio">معرض الأعمال</a></li>
+                    <li><a href="#About">من نحن</a></li>
+                    <li><a href="#Pricing">الأسعار</a></li>
+                    <li><a href="#Contact">تواصل معنا</a></li>
+                </ul>
+                <div class="form">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="over-lay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>I breathe life into websites!</h2>
+                <p> ضخ الحياة في المواقع الالكترونية هو عملنا 
+                    بعد سنتان من الخبرة في تصميم واجهات مستخدم ساحرة وبديهية ومتجاوبة نحن بأتم الجاهزية لتحويل أفكارك الى حقيقة
+                </p>
+            </div>    
+        </div>
+        <i class="fas fa-angle-left change-background fa-2x"></i>
+        <!-- fa-2x is a class means font size bold or a bit bigger -->
+        <i class="fas fa-angle-right change-background fa-2x"></i>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- End Landing -->
+    <!-- Start Services -->
+    <div id="Services" class="services">
+        <div class="container">
+            <!-- the reseon of using a container here but not everywhere in the design is 
+            because this section is following the grid system but the others don't -->
+            <div class="main-heading">
+                <h2>خدماتنا</h2>
+                <p>في الوكالة العربية للخدمات نقدم الخدمات الاتيه في عالم المواقع الالكترونية </p>
+            </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>انشاء مواقع الويب</h3>
+                        <p>تمكنك هذه الخدمة من انشاء مواقع ويب تفاعلية او ساكنة من وحي مواقع مشابهة  أو انشاء مواقع جدبدة كليا
+                        </p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fas fa-cog fa-3x"></i>
+                    <div class="text">
+                        <h3>المتابعة والتطوير</h3>
+                        <p>يمكنك دائما التواصل معنا لحل المشكلات او التعديل او التطوير على موقعك الالكتروني 
+                        </p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fas fa-pencil-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>ضمان السرعة والوصول </h3>
+                        <p>من خلال اشتراكك شهريا او سنويا يمكنك الحصول على استضافة فائقة السرعة لموقعك في خوادم موجودة في أنحاء العالم
+                        </p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>انشاء سيرة ذاتية</h3>
+                        <p>انشاء سيرة ذاتية على الانترنيت تعتبر من أقوى السير الذاتية والاحترافية والتي ستمنحك فرص عمل أقوى 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Design  -->
+    <div class="design">
+        <div class="image">
+            <img src="./images/dd.webp" alt="Mobile">
+        </div>
+        <div class="text">
+            <h2>تصميماتنا تكون </h2>
+            <ul>
+                <li>متوافقة مع جميع الشاشات</li>
+                <li>عصرية ومبرمجة  باحترافية</li>
+                <li>قابلة للتعديل</li>
+                <li>متوافقة مع جميع المتصفحات</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Design  -->
+    <!-- Start portofolio -->
+    <div id="Portofolio" class="portofolio">
+        <div  class="container">
+            <div class="main-heading">
+                <h2>معرض الأعمال</h2>
+                <p>هنا يمكنك أن تجد بعض الأعمال العالمية التي قمنا بها</p>
+            </div>
+            <ul class="shuffle">
+                <li class="active">All</li>
+                <li>App</li>
+                <li>Photo</li>
+                <li>Web</li>
+                <li>Print</li>
+            </ul>
+        </div>
+        <div class="images-container">
+            <!-- box one -->
+            <div class="box">
+                <img src="./images/box-1.jpg" alt="">
+                <div class="caption">
+                    <h4>MODERN WEBSITES DESIGN</h4>
+                    <p>Join The Club</p>
+                </div>
+            </div>
+             <!-- box two -->
+             <div class="box">
+                <img src="./images/box-2.png" alt="">
+                <div class="caption">
+                    <h4>WHERE WORK HAPPENS</h4>
+                    <p>What ever work means for you , Get Started</p>
+                </div>
+            </div> <!-- box three -->
+            <div class="box">
+                <img src="./images/box-3.png" alt="">
+                <div class="caption">
+                    <h4>YOGA FIRST</h4>
+                    <p>Fitness Always</p>
+                </div>
+            </div> <!-- box four -->
+            <div class="box">
+                <img src="./images/box-4.png" alt="">
+                <div class="caption">
+                    <h4>FINANCE</h4>
+                    <p>Don't Stuck With Bills</p>
+                </div>
+            </div> <!-- box five -->
+            <div class="box">
+                <img src="./images/box-5.png" alt="">
+                <div class="caption">
+                    <h4>BETTER HELP</h4>
+                    <p>What Do You Need Help With</p>
+                </div>
+            </div> <!-- box six -->
+            <div class="box">
+                <img src="./images/box-6.png" alt="">
+                <div class="caption">
+                    <h4>DESIGNER AGENCY</h4>
+                    <p>Let's Start Something Big Together</p>
+                </div>
+            </div> <!-- box seven -->
+            <div class="box">
+                <img src="./images/box-7.jpg" alt="">
+                <div class="caption">
+                    <h4>ADTRIOX MEDIA</h4>
+                    <p>We Get Your Brand The Attention It Needs</p>
+                </div>
+            </div> <!-- box eight -->
+            <div class="box">
+                <img src="./images/box-8.jpg" alt="">
+                <div class="caption">
+                    <h4>HURU</h4>
+                    <p>You DEserve HURU</p>
+                </div>
+            </div>
+            <!-- End OF Boxes -->
+        </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <!-- Start portofolio -->
+    <!-- Start Video -->
+<!-- <div class="video">
+    <video autoplay muted loop>
+        <source src="./videos/video.mp4" type="video/mp4">
+    </video>
+    <div class="text">
+        <h3>A Very Inspiring Video</h3>
+        <p>From here i've got some Awesome inspirtion to one of my most successful projects</p>
+        <button>See More</button>
+    </div>
+</div> -->
+    <!-- End Video -->
+    <!-- Start About -->
+<div id="About" class="about">
+    <div class="container">
+        <div class="main-heading">
+            <h2>من نحن</h2>
+            <p>وصف خاص بالتعاون مع الوكالة العربية للحدمات .....................................................................................
+            </p>
+        </div>
+        <div class="image">
+            <img src="./images/about.png" alt="">
+        </div>
+    </div>
+</div>
+    <!-- End About -->
+<!-- Start Stats *Statistics section* -->
+<div class="statistics">
+    <div class="container">
+        <!-- box-1 -->
+        <div class="box">
+            <i class="fas fa-mug-hot"></i>
+            <div class="number">1,236</div>
+            <p>Coffee Drinks</p>
+        </div>
+        <!-- box-2 -->
+        <div class="box">
+            <i class="far fa-folder"></i>
+            <div class="number">265</div>
+            <p>Completed Projects</p>
+        </div>
+        <!-- box-3 -->
+        <div class="box">
+            <i class="far fa-envelope"></i>
+            <div class="number">1,743</div>
+            <p>Mail Sent</p>
+        </div>
+        <!-- box-4 -->
+        <div class="box">
+            <i class="fas fa-trophy"></i>
+            <div class="number">17</div>
+            <p>Awards Received</p>
+        </div>
+    </div>
+</div>
+<!-- End Stats *Statistics section* -->
+<!-- Start Skills -->
+<div class="our-skills">
+    <div class="container">
+        <div class="testimonials">
+            <h3>Testimonials</h3>
+            <p>"After the bootcamp, I was gratuitously offered a paid opportunity to continue my learning as a Technical Resident with Technology Solutions Labs. "</p>
+                <!-- content one -->
+            <div class="content">
+                <img src="./images/avatar-1.jpg" alt="">
+                <div class="text">
+                    In addition to these skills, coders also benefit from the following soft skills: Problem solving: By coding, computer programmers create solutions for different industry 
+                    <p>John Doe, CEO</p>
+                </div>
+                
+            </div>
+            <!-- content two -->
+            <div class="content">
+                <img src="./images/avatar-2.jpg" alt="">
+                <div class="text">
+                    In addition to these skills, coders also benefit from the following soft skills: Problem solving: By coding, computer programmers create solutions for different industry 
+                    <p>John Doe, CEO</p>
+                </div>
+                
+            </div>
+            <!-- swich bullets -->
+            <ul class="bullets">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h3>مهاراتنا</h3>
+            <p>to succeed in computer programming, it's helpful to have strong skills in computer languages, math, science and logic.</p>
+            <!-- progress bar one -->
+            <div class="progress-bar">
+                <h4>Adobe</h4>
+                <div class="prog">
+                    <span style="width: 90%;" data-progress="90%"></span>
+                    <!-- why did we use an inline style ?
+                    the progress bar has a value and its not static which mean it could change by a programming way 
+                    so we can't relay on the css in an external file to do that 
+                    the reson is the programming languege won't have access to the value but it will have access if 
+                    it was written in the html file -->
+                </div>
+            </div>
+            <!-- progress bar two -->
+            <div class="progress-bar">
+                <h4>HTML &amp; CSS</h4>
+                <div class="prog">
+                    <span style="width: 85%;" data-progress="85%"></span>
+                </div>
+            </div>
+            <!-- progress bar three -->
+            <div class="progress-bar">
+                <h4>JavaScipt</h4>
+                <div class="prog">
+                    <span style="width: 80%;" data-progress="80%"></span>
+                </div>
+            </div>
+            <!-- progress bar four -->
+            <div class="progress-bar">
+                <h4>Php</h4>
+                <div class="prog">
+                    <span style="width: 90%;" data-progress="90%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Skills -->
+<!-- Start Quote -->
+<!-- <div class="quote">
+    <div class="container">
+        <q>Death is so final , whereas life is full of posiblities</q>
+        <span> Tyrion Lannister</span>
+    </div>
+</div> -->
+<!-- End Quote -->
+<!-- Start Priceing -->
+<div id="Pricing" class="pricing">
+    <div class="container">
+        <div class="main-heading">
+            <h2>الأسعار</h2>
+            <p>الخطط والأسعار المتوفرة</p>
+        </div>
+        <div class="plans">
+            <div class="plan">
+                <div class="head">
+                    <h3>Basic</h3>
+                    <span>10</span>
+                </div>
+                <ul>
+                    <li>صفحة رئيسية </li>
+                    <li>اللوغو الخاص بك ان وجد</li>
+                    <li> صفحة اخرى اختيارية</li>
+                    <li>تصميم متجاوب على جميع الشاشات</li>
+                </ul>
+                <div class="foot">
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="plan">
+                <div class="head">
+                    <h3>PREMIUM</h3>
+                    <span>29</span>
+                </div>
+                <ul>
+                    <li>صفحة رئيسية تضمن اللوغو الخاص بك ان وجد و معلوماتك الخاصة</li>
+                    <li>صفحتين اضافتين</li>
+                    <li>تصميم متجاوب على جميع الشاشات</li>
+                    <li>انميشن</li>
+                </ul>
+                <div class="foot">
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="plan">
+                <div class="head">
+                    <h3>Pro</h3>
+                    <span>39</span>
+                </div>
+                <ul>
+                    <li>صفحة رئيسية تضمن اللوغو الخاص بك ان وجد و معلوماتك الخاصة</li>
+                    <li>ثلاث صفحات اضافية وتصميم متجاوب</li>
+                    <li>انميشن </li>
+                    <li>متابعة وتطويرات لمدة شهر مجانية</li>
+                </ul>
+                <div class="foot">
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="plan">
+                <div class="head">
+                    <h3>Platinum</h3>
+                    <span>49</span>
+                </div>
+                <ul>
+                    <li>صفحة رئيسية تضمن اللوغو الخاص بك ان وجد و معلوماتك الخاصة</li>
+                    <li>أربع صفحات اضافية وتصمصم متجاوب وانميشن</li>
+                    <li>متابعة وتطويرات لمدة شهر مجانية</li>
+                    <li>دومين و استضافة لمدة 6 أشهر</li>
+                </ul>
+                <div class="foot">
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <p class="contact-text">اذا كنت ترغب بتصميم خطة من أجلك لاتتردد بالتواصل معنا</p>
+        <a class="contact-link" href="#Contact">تواصل معنا</a>
+    </div>
+</div>
+<!-- End Priceing -->
+<!-- Start subscription -->
+<div class="subscribe">
+    <div class="container">
+        <form action="">
+            <i class="far fa-envelope fa-lg"></i>
+            <input type="email" name="mail" placeholder="YOUR MAIL">
+            <input type="submit" value="subscribe">
+        </form>
+        <p>by subscribing you will have full access to your plan any time everywhere</p>
+    </div>
+</div>
+<!-- End subscription -->
+<!-- Start contact  -->
+<div id="Contact" class="contact">
+    <div class="container">
+        <div class="main-heading">
+            <h2>تواصل معنا</h2>
+            <p>اذا كانت لديك أي أسئلة حول خدماتنا لا تتردد بالتواصل معنا</p>
+        </div>
+        <div class="content">
+            <form action="">
+                <input class="main-input" type="text" name="name" placeholder="Your Name">
+                <input class="main-input" type="email" name="mail" placeholder="Your Email">
+                <textarea class="main-input" name="message"  placeholder="Your Message" ></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+            <div class="info">
+                <h4>Get In Touch</h4>
+                <span class="phone">+00 123.456.789</span>
+                <span class="phone">+00 123.456.789</span>
+                <h4>Where We Are</h4>
+                <address>
+                    Awesome Address 15 <br>New York, NYC <br> 123-466-789 <br>USA
+                </address>
+            </div>
+        </div>
+    </div>
+</div>        
+<!-- End contact  -->
+<!-- Start Footer -->
+<div class="footer">
+    <div class="container">
+        <img src="./images/logo (1).png" alt="">
+        <p>We Are Social</p>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fas fa-home"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="copyright">&copy; 2024 <span>ِAlhamwi </span><span>الوكالة العربية للخدمات  </span>  جميع الحقوق محفوظة</p>
+    </div>
+</div>
+<!-- End Footer -->
+</body>
+</html>
